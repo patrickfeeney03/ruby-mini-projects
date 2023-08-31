@@ -1,3 +1,5 @@
+# Patrick Feeney 30/08/2023
+
 def caesar_cipher(string, shift_amount = 1)
   splitted_array = string.split('')
   encrypted_message = splitted_array.map do |char|
@@ -12,4 +14,9 @@ def caesar_cipher(string, shift_amount = 1)
   puts encrypted_message
 end
 
+test_string = 'What a string!'
+puts "\n\nOriginal string:"
+puts test_string
+puts 'Encrypted string:'
 caesar_cipher('What a string!', 5)
+puts "\n\n"
