@@ -16,6 +16,6 @@ end
 puts substrings("Howdy partner, sit down! How's it going?", dictionary)
 ```
 On this case the output would be the following:
-````Ruby
+```Ruby
 {"down"=>1, "go"=>1, "going"=>1, "how"=>2, "howdy"=>1, "i"=>3, "it"=>2, "own"=>1, "part"=>1, "partner"=>1, "sit"=>1}
 ```
